@@ -1,0 +1,193 @@
+.body {
+  background-image: -webkit-linear-gradient(270deg, #252525, #252525), url('../images/background.png');
+  background-image: linear-gradient(180deg, #252525, #252525), url('../images/background.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-logo {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  display: inline-block;
+  padding-top: 0px;
+}
+
+.logo-div {
+  position: relative;
+  left: 51px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  min-height: auto;
+  min-width: auto;
+  margin-top: 210px;
+  margin-left: 0px;
+  clear: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-logo {
+  margin-top: 13px;
+  margin-left: 58px;
+}
+
+.hello {
+  position: absolute;
+  left: 51px;
+  top: 314px;
+  z-index: 0;
+  margin-top: -101px;
+  margin-bottom: 0px;
+  margin-left: 624px;
+}
+
+.welcome {
+  position: absolute;
+  left: 666px;
+  top: 272px;
+  z-index: 1;
+}
+
+.chinese {
+  position: absolute;
+  left: 312px;
+  top: 178px;
+}
+
+.georgian {
+  position: absolute;
+  left: 328px;
+  top: 216px;
+}
+
+.hebrew {
+  position: absolute;
+  left: 445px;
+  top: 236px;
+}
+
+.russian {
+  position: absolute;
+  left: 439px;
+  top: 293px;
+}
+
+.bengali {
+  position: absolute;
+  left: 449px;
+  top: 309px;
+}
+
+.irish {
+  position: absolute;
+  left: 344px;
+  top: 237px;
+}
+
+.akkadian {
+  position: absolute;
+  left: 369px;
+  top: 268px;
+}
+
+.spanish {
+  position: absolute;
+  left: 576px;
+  top: 328px;
+}
+
+.arabic {
+  position: absolute;
+  left: 703px;
+  top: 356px;
+}
+
+.xhosa {
+  position: absolute;
+  left: 825px;
+  top: 327px;
+}
+
+.future {
+  position: absolute;
+  left: 847px;
+  top: 276px;
+}
+
+.japanese {
+  position: absolute;
+  left: 861px;
+  top: 203px;
+}
+
+.hungarian {
+  position: absolute;
+  left: 676px;
+  top: 169px;
+}
+
+.nav-button {
+  margin-right: 2px;
+  margin-left: 2px;
+  font-family: Rubik, sans-serif;
+  color: cyan;
+  font-weight: 500;
+}
+
+.akkadu-intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 151px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.akkadu-title {
+  margin-bottom: 1px;
+  font-family: Rubik, sans-serif;
+  color: cyan;
+  font-weight: 500;
+}
+
+.text-block {
+  font-family: Nunito, sans-serif;
+  color: cyan;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
