@@ -963,7 +963,7 @@ a {
 }
 
 .of-akkadia {
-  background-image: url('../images/parallax-bg.png');
+  background-image: url('../images/parallax-bg.png') cover;
   background-position: 0px 0px;
   background-size: 960px;
 }
