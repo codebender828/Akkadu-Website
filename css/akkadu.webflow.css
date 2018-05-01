@@ -175,9 +175,16 @@ a {
 .nav-button {
   margin-right: 2px;
   margin-left: 2px;
+  padding-top: 14px;
   font-family: Rubik, sans-serif;
   color: cyan;
   font-weight: 500;
+}
+
+.nav-button.w--current {
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .akkadu-intro {
@@ -206,6 +213,7 @@ a {
   margin-bottom: 11px;
   font-family: Rubik, sans-serif;
   color: cyan;
+  font-size: 47px;
   font-weight: 500;
 }
 
@@ -213,6 +221,8 @@ a {
   margin-bottom: 9px;
   font-family: Nunito, sans-serif;
   color: cyan;
+  font-size: 19px;
+  line-height: 22px;
   font-weight: 100;
   text-align: center;
   letter-spacing: 2px;
@@ -288,7 +298,7 @@ a {
 }
 
 .description-subtitles {
-  margin-top: 9px;
+  margin-top: 15px;
   font-family: Nunito, sans-serif;
   color: cyan;
   font-size: 15px;
@@ -364,6 +374,10 @@ a {
   text-transform: none;
 }
 
+.video-heading.carousel-title {
+  color: #fff;
+}
+
 .video-subtitles {
   margin-bottom: 34px;
   font-family: Rubik, sans-serif;
@@ -387,6 +401,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 35px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -401,8 +416,8 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(306deg, cyan, #0038ff);
-  background-image: linear-gradient(144deg, cyan, #0038ff);
+  background-color: rgba(0, 152, 255, 0);
+  background-image: none;
 }
 
 .plans-div {
@@ -433,7 +448,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 28px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -449,6 +464,7 @@ a {
 
 .plans-heading.price {
   margin-top: 22px;
+  color: #333;
   letter-spacing: 3px;
 }
 
@@ -457,7 +473,7 @@ a {
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
-  color: #252525;
+  color: #fff;
 }
 
 .cards-div {
@@ -518,13 +534,14 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(304deg, #666 -2%, #1a1a1a 100%, #fff), -webkit-linear-gradient(309deg, cyan -2%, cyan 0%, cyan 0, #0f3 80%, lime 100%, #fff);
-  background-image: linear-gradient(146deg, #666 -2%, #1a1a1a 100%, #fff), linear-gradient(141deg, cyan -2%, cyan 0%, cyan 0, #0f3 80%, lime 100%, #fff);
+  background-image: -webkit-linear-gradient(304deg, #fff, #666), -webkit-linear-gradient(309deg, cyan -2%, cyan 0%, cyan 0, #0f3 80%, lime 100%, #fff);
+  background-image: linear-gradient(146deg, #fff, #666), linear-gradient(141deg, cyan -2%, cyan 0%, cyan 0, #0f3 80%, lime 100%, #fff);
   box-shadow: none;
   -webkit-transition: -webkit-transform 200ms cubic-bezier(.645, .045, .355, 1);
   transition: -webkit-transform 200ms cubic-bezier(.645, .045, .355, 1);
   transition: transform 200ms cubic-bezier(.645, .045, .355, 1);
   transition: transform 200ms cubic-bezier(.645, .045, .355, 1), -webkit-transform 200ms cubic-bezier(.645, .045, .355, 1);
+  color: #000;
 }
 
 .price-card.secondary:hover {
@@ -541,18 +558,19 @@ a {
   margin-right: 14px;
   margin-left: 14px;
   padding-top: 7px;
+  background-image: -webkit-linear-gradient(330deg, cyan, #03f);
+  background-image: linear-gradient(120deg, cyan, #03f);
   box-shadow: none;
   -webkit-transition: -webkit-transform 400ms cubic-bezier(.77, 0, .175, 1);
   transition: -webkit-transform 400ms cubic-bezier(.77, 0, .175, 1);
   transition: transform 400ms cubic-bezier(.77, 0, .175, 1);
   transition: transform 400ms cubic-bezier(.77, 0, .175, 1), -webkit-transform 400ms cubic-bezier(.77, 0, .175, 1);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
 
 .price-card.primary:hover {
-  -webkit-transform: rotateX(3deg) rotateY(-6deg) rotateZ(3deg);
-  transform: rotateX(3deg) rotateY(-6deg) rotateZ(3deg);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .underline {
@@ -573,18 +591,18 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #fff;
+  border: 1px solid #333;
   text-align: center;
 }
 
 .underline.primary-line {
-  border-color: #252525;
+  border-color: #fff;
 }
 
 .usecase {
   margin-bottom: 6px;
   font-family: Nunito, sans-serif;
-  color: #fff;
+  color: #333;
   font-size: 13px;
   text-align: center;
   letter-spacing: 2px;
@@ -592,7 +610,7 @@ a {
 }
 
 .usecase.per-month {
-  color: #252525;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -603,7 +621,7 @@ a {
 .price-list {
   margin-top: 25px;
   font-family: Rubik, sans-serif;
-  color: #fff;
+  color: #333;
   line-height: 29px;
   text-align: left;
   text-transform: none;
@@ -611,7 +629,7 @@ a {
 }
 
 .price-list.primary-plan-list {
-  color: #252525;
+  color: #fff;
 }
 
 .get-started-secondary {
@@ -963,9 +981,8 @@ a {
 }
 
 .of-akkadia {
-  background-image: url('../images/parallax-bg.png') cover;
-  background-position: 0px 0px;
-  background-size: 960px;
+  background-image: url('../images/parallax-bg.png');
+  background-size: cover;
 }
 
 .left-side {
@@ -1102,6 +1119,91 @@ a {
   padding-top: 22px;
 }
 
+.list-item {
+  color: #fff;
+}
+
+.slide {
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.slider {
+  height: auto;
+  background-color: transparent;
+}
+
+.vid-1-div {
+  height: auto;
+}
+
+.left-side-vid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  padding-left: 65px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.right-side-vid {
+  height: 300px;
+}
+
+.video {
+  margin-top: 50px;
+  border-radius: 7.5px;
+}
+
+.heading-2 {
+  margin-top: 75px;
+}
+
+.videos-headings {
+  margin-top: 20px;
+  padding-right: 70px;
+  font-family: Rubik, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.videos-description {
+  padding-right: 70px;
+  font-family: Rubik, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.carousel-video {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mask {
+  padding-bottom: 50px;
+}
+
 @media (max-width: 991px) {
   .home-hero {
     position: relative;
@@ -1139,11 +1241,14 @@ a {
   }
   .chinese {
     left: 65px;
-    top: 148px;
+    top: 94px;
     bottom: 0px;
   }
   .nav-button {
     padding-left: 64px;
+  }
+  .akkadu-intro {
+    margin-top: 117px;
   }
   .icon {
     color: cyan;
@@ -1224,13 +1329,14 @@ a {
 @media (max-width: 767px) {
   .home-hero {
     left: -392px;
-    top: -186px;
+    top: -116px;
+    bottom: -41px;
   }
   .logo-div {
     margin-top: 174px;
   }
   .nav-logo {
-    margin-top: 19px;
+    margin-top: 12px;
   }
   .chinese {
     left: 204px;
@@ -1244,7 +1350,7 @@ a {
     padding-left: 43px;
   }
   .akkadu-intro {
-    margin-top: 0px;
+    margin-top: 78px;
   }
   .subtitles {
     line-height: 15px;
@@ -1262,6 +1368,8 @@ a {
     font-weight: 200;
   }
   .icon {
+    margin-top: -2px;
+    padding-top: 0px;
     padding-left: 0px;
     color: cyan;
   }
@@ -1300,6 +1408,10 @@ a {
   .video-heading {
     display: block;
     margin-bottom: 0px;
+  }
+  .plans-section {
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .cards-div {
     -webkit-box-orient: vertical;
@@ -1387,11 +1499,45 @@ a {
     margin-top: 15px;
     margin-bottom: 0px;
   }
+  .left-side-vid {
+    padding: 16px 70px;
+  }
+  .right-side-vid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 180px;
+    padding-right: 63px;
+    padding-left: 63px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .videos-headings {
+    margin-top: 11px;
+    padding-right: 0px;
+  }
+  .videos-description {
+    padding-right: 0px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 479px) {
   .home-hero {
     left: -549px;
+    top: -147px;
   }
   .body {
     background-image: url('../images/parallax-bg.png');
@@ -1430,8 +1576,8 @@ a {
   .phone-subtitle {
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 11px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 14px;
   }
   .phone-subtitle.subtitle {
     font-size: 11px;
@@ -1443,6 +1589,9 @@ a {
   .video-heading {
     margin-bottom: 1px;
     font-size: 34px;
+  }
+  .video-heading.carousel-title {
+    padding-top: 8px;
   }
   .video-subtitles {
     text-align: center;
@@ -1498,6 +1647,33 @@ a {
   .story-block {
     font-size: 16px;
     line-height: 18px;
+  }
+  .left-side-vid {
+    height: 180px;
+    padding-right: 31px;
+    padding-left: 31px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .right-side-vid {
+    height: auto;
+  }
+  .videos-headings {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+  }
+  .videos-description {
+    margin-top: 5px;
   }
 }
 
